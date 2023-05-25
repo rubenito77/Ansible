@@ -1,0 +1,8 @@
+---
+#- include: "00-proxy.yml"
+#- include: "01-stop-jenkins.yml"
+#- include: "02-rename-actual-ver.yml"
+#- include: "03-download-new-ver.yml"
+#- include: "04-start-new-ver.yml"
+#- include: "05-tunining-jenkins.yml"
+- include: update.yaml
