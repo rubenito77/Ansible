@@ -1,0 +1,4 @@
+- name: Actualizar SO
+  command: apt update -y 
+  become: yes
+
